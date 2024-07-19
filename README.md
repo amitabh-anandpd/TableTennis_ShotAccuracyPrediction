@@ -2,6 +2,11 @@ Reference -
 - https://github.com/arduino/ArduinoTensorFlowLiteTutorials.git
 - https://github.com/arduino/ArduinoTensorFlowLiteTutorials/blob/master/GestureToEmoji/ArduinoSketches
 
+# Table Tennis Shot predictor
+
+This is a deep learning project, that gives output in the form of probability as it is using the softmax function.
+
+
 IMU_Capture is used to record the data for the gestures.
 It is used for recording the gesture data for four simple table tennis movements.
 
