@@ -37,7 +37,7 @@ The IMU_Capture captures the gesture, which can be anything. We have captured 30
 
 Here, only four gestures are taken, and on that, we are predicting the probablity of the four. That can be made into five, six, seven or even more. 
 
-For the data processing part, in the python notebook, you will have to adjust your "GESTURES" list according to the gestures you have captured using Arduino.
+For the data processing part, in the jupyter notebook, you will have to adjust your "GESTURES" list according to the gestures you have captured using Arduino.
 
 ## Steps to recreate
 1. **Capture Data** -
