@@ -5,6 +5,7 @@ Reference -
 # Table Tennis Shot predictor
 
 This is a deep learning project, that gives output in the form of probability (softmax function).
+
 **Arduino Nano 33 BLE** is used. It is preferred as it has a 9 axis inertial measurement unit (IMU) which means that it includes an accelerometer, a gyroscope, and a magnetometer with 3-axis resolution each. Here in the project, we have only used gyroscope and accelerometer.
 
 
@@ -26,7 +27,7 @@ Model is trained on the processed data. 600 epochs were used, which was not real
 Model created is then converted to TensorFlow Lite format with ".tflite" extension.
 Since we have to use it in Arduino, the TensorFlow Lite file is then converted into Arduino Header file with ".h" extension.
 
-The "model.h" file is our model, trained on the 4 gestures (30 times each), that is to be uploaded in Arduino with the help if the code IMU_Classifier.
+The "model.h" (in both IMU_Classifier folders) file is our model, trained on the 4 gestures (30 times each), that is to be uploaded in Arduino with the help if the code IMU_Classifier.
 
 ## Generalization of the project
 The project here is specific to table tennis as the data of gesture is that of table tennis movements. This project is not limited to table tennis only. 
