@@ -1,6 +1,5 @@
 Reference - 
 - https://github.com/arduino/ArduinoTensorFlowLiteTutorials.git
-- https://github.com/arduino/ArduinoTensorFlowLiteTutorials/blob/master/GestureToEmoji/ArduinoSketches
 - https://github.com/AnbuKumar-maker/Machine-Learning-on-Arduino-33-BLE-Sense
   
 # Table Tennis Shot predictor
