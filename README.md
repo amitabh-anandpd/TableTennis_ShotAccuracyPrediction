@@ -53,8 +53,8 @@ For the data processing part, in the jupyter notebook, you will have to adjust y
    - One way, as used in here, is to make the DataFrame (Original size after import - 120n x 6) to n x 720.
    - Now each reading (gesture) is defined in only one row.
 3. **Define Model** -
-   - Here, we have used Keras sequential. You can use whatever suits you.
-   - This project could've been possible without an ML model, with just a column matrix of size 720 x (types if gestures) to give a probability prediction.
+   - Here, we have defined it using Keras sequential.
+   - This project could've been possible without an ML model, with just a column matrix of size 720 x (types of gestures) to give a probability prediction.
 4. **Converting model to tflite file and the Arduino Header file** -
    - Using the TensorFlow library and in-built functions, convert the model to tflite file.
    - Create a header file ("model.h" in this case)
